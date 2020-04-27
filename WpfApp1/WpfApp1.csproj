@@ -142,8 +142,15 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="pic\" />
+    <Resource Include="pic\bg.gif" />
+    <Resource Include="pic\bg2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bg.gif" />
+    <Resource Include="Images\bg2.gif" />
+    <Resource Include="Images\earth.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
